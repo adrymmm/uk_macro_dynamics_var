@@ -1,5 +1,11 @@
 # Inflation, Wages and Productivity (UK, ONS) #
 
+## Headline Results
++ Real wages and productivity are both I(1) but **not cointegrated** - no long-run equilibrium relationship, so the model is a VAR in first differences rather than a VECM
++ **Productivity growth Granger-causes real wage growth** (p = 0.024); the reverse does not hold (p = 0.426) - the causality chain runs one way
++ A positive productivity growth shock raises real wage growth, but the effect is **short-lived**, dissipating within a couple of quarters (IRF)
++ Real wage growth fluctuations are mostly driven by **its own shocks**; productivity shocks explain only a minority share (~15-20%) of its forecast error variance (FEVD)
+
 ## EDA 
 + Line plots,
 + MA (Moving Average) Plots
